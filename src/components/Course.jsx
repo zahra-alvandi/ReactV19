@@ -1,17 +1,11 @@
-import React from "react";
+import { Component } from "lucide-react";
 
-function Course() {
-  return (
-    <div>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  );
+class Course extends Component{
+    render() {
+        return(
+            <h1>Course box</h1>
+        )
+    }
 }
 
-export default Course;
+export default Course
