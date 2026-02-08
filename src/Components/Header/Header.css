@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+.header {
+  background-color: rgb(238, 226, 226);
+  height: 50px;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.text:hover {
+    color: rgb(128, 125, 125);
+    transition: all 0.3ms ease;
+}
